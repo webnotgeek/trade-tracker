@@ -1,10 +1,8 @@
 import { Component } from '@angular/core';
 import { ProductService } from './services/product.service';
-import { TruncatePipe } from 'pipes/truncate'
 
 @Component({
   selector: 'app-root',
-  pipes: [TruncatePipe],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
