@@ -1,8 +1,16 @@
 # Trade Tracker
 ###### Trade Tracker Installation steps
 - Clone the project via terminal
-- cd client/ then npm or yarn install
-- cd server/ then npm or yarn install
+- use Yarn to install dependencies
+
+ ```
+ cd client/
+ yarn install
+
+ cd server/
+ yarn install
+
+ ```
 
 
 ### Technologies Used
@@ -25,7 +33,7 @@
  From the root directory in the terminal
  ```
  cd client
- npm run start
+ npm run project
 
  ```
  you will notice that your package manager will make an ng start with proxy config that
