@@ -37,8 +37,8 @@
               <li><strong>Product ID:</strong>{{ product.productID }}</li>
               <li><strong>Name: </strong>{{product.name}}</li>
               <li><strong>Category:</strong> {{product.categories[0].category[0]['$'].path}}</li>
-              <li><a href="{{product.productURL}}" target="_blank"><strong>Product URL</strong></a> </li>
-              <li><strong>Description:</strong> {{product.description | truncate : 20 }}</li>
+              <li><a href="{{product.productURL}}"><strong>Product URL</strong></a> </li>
+              <li><strong>Description:</strong> {{product.description }}</li>
             </ul>
           </div>
         </div>
